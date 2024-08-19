@@ -1,0 +1,101 @@
+[versions]
+androidGradlePluginVersion = "8.5.0"
+androidXTestVersion = "1.6.1"
+appUpdateVersion = "2.1.0"
+coreKtxVersion = "1.13.1"
+coreSplashscreenVersion = "1.0.1"
+coreTestingVersion = "2.2.0"
+coroutineTestVersion = "1.9.0-RC"
+datastoreVersion = "1.1.1"
+daggerHiltVersion = "2.51.1"
+desugarJdkLibsVersion = "2.0.4"
+espressoCoreVersion = "3.6.1"
+fragmentKtxVersion = "1.8.1"
+guavaVersion = "33.2.1-android"
+jetbrainsKotlinJvmVersion = "2.0.0"
+junit = "1.2.1"
+junitVersion = "4.13.2"
+kotlinVersion = "2.0.0"
+kspVersion = "2.0.0-1.0.21"
+lifecycleVersion = "2.8.2"
+lottieVersion = "5.2.0"
+materialVersion = "1.12.0"
+navigationFragmentKtxVersion = "2.8.0-beta04"
+ossLicensesPluginVersion = "0.10.6"
+playServicesAdsVersion = "23.2.0"
+playServicesOssLicensesVersion = "17.1.0"
+proguardGradleVersion = "7.5.0"
+protobufPluginVersion = "0.9.4"
+protobufViersion = "4.26.1"
+recyclerviewVersion = "1.3.2"
+robolectricVersion = "4.12.2"
+roomVersion = "2.6.1"
+serialization-json = "1.7.1"
+userMessagingPlatformVersion = "2.2.0"
+
+# App version in Google store
+versionCodeVersion = "3429"
+#
+# Large changes.Little changes.Others
+versionNameVersion = "2.0.0"
+
+# Android Sdk Version
+buildToolVersion = "34.0.0"
+compileSdkVersion = "34"
+minSdkVersion = "21"
+
+# Toolchain Version
+toolchainVersion = "17"
+
+[libraries]
+android-tools-build-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePluginVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtxVersion" }
+androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreenVersion" }
+androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTestingVersion" }
+androidx-datastore-proto = { group = "androidx.datastore", name = "datastore", version.ref = "datastoreVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCoreVersion" }
+androidx-fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentKtxVersion" }
+androidx-fragment-testing-manifest = { group = "androidx.fragment", name = "fragment-testing-manifest", version.ref = "fragmentKtxVersion" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junit" }
+androidx-lifecycle-compiler = { group = "androidx.lifecycle", name = "lifecycle-compiler", version.ref = "lifecycleVersion" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleVersion" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtxVersion" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationFragmentKtxVersion" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerviewVersion" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "androidXTestVersion" }
+androidx-test-rules = { group = "androidx.test", name = "rules", version.ref = "androidXTestVersion" }
+app-update = { group = "com.google.android.play", name = "app-update", version.ref = "appUpdateVersion" }
+app-update-ktx = { group = "com.google.android.play", name = "app-update-ktx", version.ref = "appUpdateVersion" }
+desugar-jdk-libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugarJdkLibsVersion" }
+google-guava-android = { group = "com.google.guava", name = "guava", version.ref = "guavaVersion" }
+google-protobuf-kotlin-lite = { group = "com.google.protobuf", name = "protobuf-kotlin-lite", version.ref = "protobufViersion" }
+google-protobuf-protoc = { group = "com.google.protobuf", name = "protoc", version.ref = "protobufViersion" }
+guardsquare-proguard-gradle = { group = "com.guardsquare", name = "proguard-gradle", version.ref = "proguardGradleVersion" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHiltVersion" }
+hilt-android-testing = { group = "com.google.dagger", name = "hilt-android-testing", version.ref = "daggerHiltVersion" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "daggerHiltVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junitVersion" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "jetbrainsKotlinJvmVersion" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutineTestVersion" }
+kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization-json" }
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottieVersion" }
+material = { group = "com.google.android.material", name = "material", version.ref = "materialVersion" }
+navigation-safe-args-gradle-plugin = { group = "androidx.navigation", name = "navigation-safe-args-gradle-plugin", version.ref = "navigationFragmentKtxVersion" }
+play-services-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "playServicesAdsVersion" }
+play-services-oss-licenses = { group = "com.google.android.gms", name = "play-services-oss-licenses", version.ref = "playServicesOssLicensesVersion" }
+play-services-oss-licenses-plugin = { group = "com.google.android.gms", name = "oss-licenses-plugin", version.ref = "ossLicensesPluginVersion" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectricVersion" }
+user-messaging-platform = { group = "com.google.android.ump", name = "user-messaging-platform", version.ref = "userMessagingPlatformVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidGradlePluginVersion" }
+android-library = { id = "com.android.library", version.ref = "androidGradlePluginVersion" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "daggerHiltVersion" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinVersion" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvmVersion" }
+jetbrains-kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlinVersion" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "kspVersion" }
+google-protobuf = { id = "com.google.protobuf", version.ref = "protobufPluginVersion" }

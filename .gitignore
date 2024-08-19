@@ -18,3 +18,12 @@ local.properties
 /app/
 /gradle/
 /.idea/.name
+/.idea/compiler.xml
+/.idea/deploymentTargetSelector.xml
+/.idea/gradle.xml
+/.idea/kotlinc.xml
+/.idea/migrations.xml
+/.idea/misc.xml
+/.idea/other.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml

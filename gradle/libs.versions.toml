@@ -1,6 +1,7 @@
 [versions]
 androidGradlePluginVersion = "8.5.2"
 androidComposeBOMVersion = "2024.08.00"
+androidxBrowserVersion = "1.8.0"
 androidXTestVersion = "1.6.1"
 appUpdateVersion = "2.1.0"
 coreKtxVersion = "1.13.1"
@@ -49,6 +50,7 @@ toolchainVersion = "17"
 
 [libraries]
 android-tools-build-gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePluginVersion" }
+androidx-browser = { group = "androidx.browser", name = "browser", version.ref = "androidxBrowserVersion" }
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidComposeBOMVersion" }
 androidx-compose-bom-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-compose-bom-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4"}

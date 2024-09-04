@@ -76,6 +76,7 @@ androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview"
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
 androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
 androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+androidx-room-testing = { group = "androidx.room", name = "room-testing", version.ref = "roomVersion" }
 androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "androidXTestVersion" }
 androidx-test-rules = { group = "androidx.test", name = "rules", version.ref = "androidXTestVersion" }
 app-update = { group = "com.google.android.play", name = "app-update", version.ref = "appUpdateVersion" }

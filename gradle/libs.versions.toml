@@ -58,6 +58,7 @@ androidx-compose-bom-ui-test-junit4 = { group = "androidx.compose.ui", name = "u
 androidx-compose-bom-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-compose-bom-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 androidx-compose-bom-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-bom-ui-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtxVersion" }
 androidx-core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "coreSplashscreenVersion" }
 androidx-core-testing = { group = "androidx.arch.core", name = "core-testing", version.ref = "coreTestingVersion" }

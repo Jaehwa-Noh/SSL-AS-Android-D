@@ -1,6 +1,6 @@
 [versions]
 androidGradlePluginVersion = "8.6.1"
-androidComposeBOMVersion = "2024.08.00"
+androidComposeBOMVersion = "2024.09.03"
 androidxBrowserVersion = "1.8.0"
 androidXTestVersion = "1.6.1"
 appUpdateVersion = "2.1.0"
